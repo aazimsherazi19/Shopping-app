@@ -10,10 +10,10 @@ function Navbar() {
       </div>
       </Link>
       <ul className='flex items-center space-x-4 '>
-         <Link to={'/'}>
+         <Link to={'/Shopping-app'}>
          <li className='list-none text-gray-800 font-semibold '>Home</li>
          </Link>
-         <Link to={'/cart'}>
+         <Link to={'/Shopping-app/cart'}>
          <li className='list-none text-gray-800 font-semibold '>Cart</li>
          </Link>
       </ul>
