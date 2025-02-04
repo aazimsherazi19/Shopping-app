@@ -35,7 +35,7 @@ useEffect(()=>{
       : 
       <div className='min-h-[80vh] flex flex-col justify-center items-center'>
       <h1 className='text-gray-800 font-bold text-xl mb-2'>Your cart is empty</h1>
-      <Link to={'/'}>
+      <Link to={'/Shopping-app/'}>
       <button className='px-4 py-4 bg-red-900 text-white font-bold rounded-lg font-bold '>Shop Now</button>
       </Link>
       </div>

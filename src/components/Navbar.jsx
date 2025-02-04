@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 function Navbar() {
   return (
     <nav className='flex items-center justify-between max-w-6xl h-20 mx-auto'>
-      <Link to={'/'}>
+      <Link to={'/Shopping-app/'}>
       <div className='ml-5'>
         <h1 className='text-red-900 font-bold text-xl sm:text-2xl md:text-3xl tracking-wide '>React Redux Shopping Cart</h1>
       </div>
